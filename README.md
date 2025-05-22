@@ -1,1 +1,1 @@
-Christian's math website
+Christian Campbell's math website
