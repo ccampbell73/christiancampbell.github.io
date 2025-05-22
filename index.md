@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Christian Campbell
+description: ""
 ---
 
 [Home](/)
