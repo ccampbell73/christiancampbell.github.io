@@ -3,13 +3,20 @@
 
 @import "{{ site.theme }}";
 
-.page-title, /* change title font */
+/* change title font */
+.page-title, 
 h1,
 h2,
 h3 {
   font-family: 'Arial', serif !important;
 }
 
-body {   /* change body font */
+/* change body font */
+body {  
   font-family: 'Arial', serif; 
+}
+
+/* add spacing to navbar */
+.navbar a {  
+  margin-right: 20px;
 }
