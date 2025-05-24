@@ -16,7 +16,27 @@ body {
   font-family: 'Arial', serif; 
 }
 
-/* add spacing to navbar */
+/* customize navbar */
 .navbar a {  
   margin-right: 20px;
+  font-weight: bold;
 }
+
+/* customize header */
+.site-header {
+  background-color: #1a73e8 
+}
+
+/* customize footer */
+.site-footer {
+  background-color: #1a73e8 
+}
+
+/* remove footer text */
+.footer {
+  display: none;
+}
+
+
+
+
