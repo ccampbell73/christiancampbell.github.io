@@ -1,3 +1,5 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/jekyll-theme-cayman/0.2.0/styles.css");
+
 /* Remove default Cayman banner */
 .page-header {
   background: none;
