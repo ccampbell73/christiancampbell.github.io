@@ -9,5 +9,5 @@ title: CV
   <a href="/research/">Research</a>
   <a href="/blog/">Blog</a>
 </div>
-
+ 
 
