@@ -3,6 +3,8 @@ layout: default
 title: Christian Campbell
 ---
 
+<link rel="stylesheet" href="/assets/css/style.css">
+
 <div class="navbar">
   <a href="/">Home</a>
   <a href="/CV.html">CV</a>
