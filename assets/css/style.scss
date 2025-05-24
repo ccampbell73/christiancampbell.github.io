@@ -3,6 +3,13 @@
 
 @import "{{ site.theme }}";
 
-body {
+.page-title, /* change title font */
+h1,
+h2,
+h3 {
+  font-family: 'Arial', serif !important;
+}
+
+body {   /* change body font */
   font-family: 'Arial', serif; 
 }
