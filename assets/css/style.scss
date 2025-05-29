@@ -24,18 +24,13 @@ body {
 }
 
 /* customize header */
-html body header.site-header {
-  background-color: #1a73e8 !important; 
+.header-wrap {
+  background-color: #1a73e8; 
 }
 
 /* customize footer */
-html body footer.site-footer {
-  background-color: #1a73e8 !important; 
-}
-
-/* remove footer text */
-html body footer.footer {
-  display: none !important;
+.footer-wrap {
+  display: none;
 }
 
 
