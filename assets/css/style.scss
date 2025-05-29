@@ -23,20 +23,13 @@ body {
   font-weight: bold;
 }
 
-#footer_wrap {display: none;}
 
 /* customize header */
-.header-wrap {
-  background-color: #1a73e8; 
+#header_wrap {
+  background: #1a73e8 !important; 
 }
 
 /* customize footer */
-.footer-wrap {
-  display: none;
+#footer_wrap {
+  display: none !important;
 }
-
-
-
-
-
-
