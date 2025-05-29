@@ -9,12 +9,13 @@ h1,
 h2,
 h3 {
   font-family: 'Arial', serif !important;
+  text-shadow: none !important;
 }
 
-/* change body font */
+/* change body font and remove bottom rectangle */
 body {  
-  font-family: 'Arial', serif; 
-  margin-bottom: 0 !important;
+  font-family: 'Arial', serif !important; 
+  min-height: 100vh !important;
 }
 
 /* customize navbar */
@@ -23,13 +24,15 @@ body {
   font-weight: bold;
 }
 
+/* cget rid of borders on main content */
+#main_content_wrap {
+  border-top: 0px;
+  border-bottom: 0px;
+}
 
-/* customize header */
+/* change header colour */
 #header_wrap {
   background: #1a73e8 !important; 
 }
 
-/* customize footer */
-#footer_wrap {
-  display: none !important;
-}
+
