@@ -3,13 +3,11 @@
 
 @import "{{ site.theme }}";
 
-/* change title font */
-.page-title, 
-h1,
-h2,
-h3 {
+/* edit title */
+#project_title {
+  padding-left: 20px !important;
   font-family: 'Arial', serif !important;
-  text-shadow: none !important;
+  text-shadow: none !important; 
 }
 
 /* change body font and remove bottom rectangle */
@@ -44,8 +42,8 @@ body {
 
 /* get rid of borders on main content */
 #main_content_wrap {
-  border-top: 0px;
-  border-bottom: 0px;
+  border-top: 0px !important;
+  border-bottom: 0px !important;
 }
 
 /* change header colour */
