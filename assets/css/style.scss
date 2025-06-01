@@ -3,17 +3,25 @@
 
 @import "{{ site.theme }}";
 
-/* edit title */
+/* edit title attributes */
 #project_title {
-  padding-left: 20px !important;
-  font-family: 'Arial', serif !important;
+  padding-left: 10px !important;
   text-shadow: none !important; 
 }
 
-/* change body font and remove bottom rectangle */
-body {  
-  font-family: 'Arial', serif !important; 
+/* customize body (and remove bottom rectangle) */
+body {   
   background: #f2f2f2 !important;
+}
+
+/* customize fonts */
+.p, h1, h2, h3, h4, h5, h6 {
+  font-family: 'Arial', serif !important; 
+}
+
+/* customize navbar itself */
+.navbar {
+  padding-left: 10px;
 }
 
 /* customize nonactive navbar links */
@@ -51,6 +59,7 @@ body {
   background: #1a73e8 !important; 
 }
 
+/* change footer colour */
 #footer_wrap {
   background: #f2f2f2 !important;
 }
