@@ -23,12 +23,16 @@
           <h1 id="project_title">{{ site.title | default: site.github.repository_name }}</h1>
           <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
 
+          <!-- NAVBAR -->
+          {% assign current = page.url | split: '/' %}
+
           <div class="navbar">
-            <a href="/">Home</a>
-            <a href="/CV/">CV</a>
-            <a href="/research/">Research</a>
-            <a href="/blog/">Blog</a>
+            <a href="/" {% if current[1] == "" %}class='active'{% endif %}>Home</a>
+            <a href="/CV/" {% if current[1] == "CV" %}class='active'{% endif %}>CV</a>
+            <a href="/research/" {% if current[1] == "research" %}class='active'{% endif %}>Research</a>
+            <a href="/blog/" {% if current[1] == "blog" %}class='active'{% endif %}>Blog</a>
           </div>
+          
 
           {% if site.show_downloads %}
             <section id="downloads">
