@@ -27,7 +27,7 @@
           {% assign current = page.url | split: '/' %}
 
           <div class="navbar">
-            <a href="/" {% if current[1] == "" %}class='active'{% endif %}>Home</a>
+            <a href="/" {% if current[1] == null %}class='active'{% endif %}>Home</a>
             <a href="/CV/" {% if current[1] == "CV" %}class='active'{% endif %}>CV</a>
             <a href="/research/" {% if current[1] == "research" %}class='active'{% endif %}>Research</a>
             <a href="/blog/" {% if current[1] == "blog" %}class='active'{% endif %}>Blog</a>
