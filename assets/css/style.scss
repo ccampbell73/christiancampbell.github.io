@@ -3,11 +3,12 @@
 
 @import "{{ site.theme }}";
 
-/* edit title attributes */
-#project_title {
-  padding-left: 10px !important;
-  text-shadow: none !important; 
+/* change title and header fonts */
+.page-title, h1, h2, h3, h4, h5, h6 {
+  font-family: 'Arial', serif !important;
+  text-shadow: none !important;
 }
+
 
 /* customize body (change fonts and remove bottom rectangle) */
 body {   
@@ -15,9 +16,6 @@ body {
   font-family: "Arial", serif !important;
 }
 
-.p, .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: "Arial", serif !important;
-}
 
 /* customize navbar itself */
 .navbar {
