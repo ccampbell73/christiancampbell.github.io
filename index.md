@@ -3,7 +3,6 @@ layout: default
 title: Christian Campbell
 ---
 
-### Test  
 test  
 test  
 test  
